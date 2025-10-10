@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Test - ADOM</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test-section { margin: 20px 0; padding: 20px; border: 1px solid #ccc; }
+        .image-test { margin: 10px 0; }
+        .image-test img { max-width: 200px; max-height: 200px; margin: 5px; border: 1px solid #ddd; }
+        .status { font-weight: bold; }
+        .success { color: green; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h1>ADOM Website - Image Loading Test</h1>
+    
+    <div class="test-section">
+        <h2>Critical Images Test</h2>
+        
+        <div class="image-test">
+            <h3>Logo</h3>
+            <img src="images/logo-trans.png" alt="Logo" onload="showStatus(this, true)" onerror="showStatus(this, false)">
+            <span class="status" id="logo-status">Loading...</span>
+        </div>
+        
+        <div class="image-test">
+            <h3>Profile Images</h3>
+            <img src="images/profile1.png" alt="Profile 1" onload="showStatus(this, true)" onerror="showStatus(this, false)">
+            <img src="images/profile2.png" alt="Profile 2" onload="showStatus(this, true)" onerror="showStatus(this, false)">
+            <img src="images/profile3.png" alt="Profile 3" onload="showStatus(this, true)" onerror="showStatus(this, false)">
+        </div>
+        
+        <div class="image-test">
+            <h3>Card Images</h3>
+            <img src="images/card-1.png" alt="Card 1" onload="showStatus(this, true)" onerror="showStatus(this, false)">
+            <img src="images/card-2.png" alt="Card 2" onload="showStatus(this, true)" onerror="showStatus(this, false)">
+            <img src="images/card-3.png" alt="Card 3" onload="showStatus(this, true)" onerror="showStatus(this, false)">
+        </div>
+        
+        <div class="image-test">
+            <h3>Large Images (Potential Issues)</h3>
+            <img src="images/up_left.jpg" alt="Up Left" onload="showStatus(this, true)" onerror="showStatus(this, false)">
+            <img src="images/left-up-1.jpg" alt="Left Up 1" onload="showStatus(this, true)" onerror="showStatus(this, false)">
+            <img src="images/card-image-1.jpg" alt="Card Image 1" onload="showStatus(this, true)" onerror="showStatus(this, false)">
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Test Results</h2>
+        <div id="results"></div>
+    </div>
+
+    <script>
+        let loadedCount = 0;
+        let totalCount = 0;
+        
+        function showStatus(img, success) {
+            totalCount++;
+            if (success) {
+                loadedCount++;
+                console.log(`✅ Loaded: ${img.src}`);
+            } else {
+                console.log(`❌ Failed: ${img.src}`);
+            }
+            
+            if (totalCount >= 9) { // Update count when all images are tested
+                updateResults();
+            }
+        }
+        
+        function updateResults() {
+            const resultsDiv = document.getElementById('results');
+            const successRate = Math.round((loadedCount / totalCount) * 100);
+            
+            resultsDiv.innerHTML = `
+                <p><strong>Images Loaded:</strong> ${loadedCount}/${totalCount}</p>
+                <p><strong>Success Rate:</strong> ${successRate}%</p>
+                <p><strong>Status:</strong> <span class="${successRate === 100 ? 'success' : 'error'}">${successRate === 100 ? 'All images loaded successfully!' : 'Some images failed to load'}</span></p>
+            `;
+        }
+    </script>
+</body>
+</html>
