@@ -1,0 +1,81 @@
+/* Google Fonts CSS */
+
+/* Jost Font Family */
+.font-jost {
+  font-family: "Jost", sans-serif;
+}
+
+.font-jost-thin {
+  font-family: "Jost", sans-serif;
+  font-weight: 100;
+}
+
+.font-jost-light {
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+}
+
+.font-jost-regular {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+}
+
+.font-jost-medium {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+
+.font-jost-semibold {
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+}
+
+.font-jost-bold {
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+}
+
+.font-jost-extrabold {
+  font-family: "Jost", sans-serif;
+  font-weight: 800;
+}
+
+.font-jost-black {
+  font-family: "Jost", sans-serif;
+  font-weight: 900;
+}
+
+.font-jost-italic {
+  font-family: "Jost", sans-serif;
+  font-style: italic;
+}
+
+/* Merriweather Font Family */
+.font-merriweather {
+  font-family: "Merriweather", serif;
+}
+
+.font-merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+}
+
+.font-merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+}
+
+.font-merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+}
+
+.font-merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+}
+
+.font-merriweather-italic {
+  font-family: "Merriweather", serif;
+  font-style: italic;
+}
