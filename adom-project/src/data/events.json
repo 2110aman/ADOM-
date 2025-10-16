@@ -1,0 +1,132 @@
+{
+  "events": {
+    "subtitle": "UPCOMING EVENTS",
+    "title": "Upcoming Events at ADOM",
+    "union": {
+      "src": "/images/text_union.svg",
+      "alt": "Union line",
+      "width": 470,
+      "height": 30
+    },
+    "description": "Join us for hands-on training, seminars, and research discussions.",
+    "cards": [
+      {
+        "image": {
+          "src": "/images/card-1.png",
+          "alt": "Advanced Ultrasound Techniques Workshop",
+          "width": 136,
+          "height": 134
+        },
+        "title": "Advanced Ultrasound Techniques Workshop",
+        "meta": [
+          {
+            "icon": {
+              "src": "/images/calender_icon.svg",
+              "alt": "Date",
+              "width": 20,
+              "height": 20
+            },
+            "text": "03/03/25"
+          },
+          {
+            "icon": {
+              "src": "/images/clock_icon.svg",
+              "alt": "Time",
+              "width": 20,
+              "height": 20
+            },
+            "text": "09:00 - 12:00"
+          },
+          {
+            "icon": {
+              "src": "/images/direction.svg",
+              "alt": "Location",
+              "width": 20,
+              "height": 20
+            },
+            "text": "ADOM Training Center, New York, NY"
+          }
+        ],
+        "buttonText": "Register Now"
+      },
+      {
+        "image": {
+          "src": "/images/card-2.png",
+          "alt": "Annual Cancer Research Symposium",
+          "width": 136,
+          "height": 134
+        },
+        "title": "Annual Cancer Research Symposium",
+        "meta": [
+          {
+            "icon": {
+              "src": "/images/calender_icon.svg",
+              "alt": "Date",
+              "width": 20,
+              "height": 20
+            },
+            "text": "03/03/25"
+          },
+          {
+            "icon": {
+              "src": "/images/clock_icon.svg",
+              "alt": "Time",
+              "width": 20,
+              "height": 20
+            },
+            "text": "10:00 - 15:00"
+          },
+          {
+            "icon": {
+              "src": "/images/direction.svg",
+              "alt": "Location",
+              "width": 20,
+              "height": 20
+            },
+            "text": "Virtual Event (Link provided upon registration)"
+          }
+        ],
+        "buttonText": "Register Now"
+      },
+      {
+        "image": {
+          "src": "/images/card-3.png",
+          "alt": "Ultrasound Certification Prep Course",
+          "width": 136,
+          "height": 134
+        },
+        "title": "Ultrasound Certification Prep Course",
+        "meta": [
+          {
+            "icon": {
+              "src": "/images/calender_icon.svg",
+              "alt": "Date",
+              "width": 20,
+              "height": 20
+            },
+            "text": "03/03/25"
+          },
+          {
+            "icon": {
+              "src": "/images/clock_icon.svg",
+              "alt": "Time",
+              "width": 20,
+              "height": 20
+            },
+            "text": "08:00 - 17:00"
+          },
+          {
+            "icon": {
+              "src": "/images/direction.svg",
+              "alt": "Location",
+              "width": 20,
+              "height": 20
+            },
+            "text": "ADOM Training Center, New York, NY"
+          }
+        ],
+        "buttonText": "Register Now"
+      }
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "insights": {
+    "subtitle": "OUR RESEARCH INSIGHTS",
+    "title": "Recent research insights",
+    "union": {
+      "src": "/images/text_union.svg",
+      "alt": "Union decorative line",
+      "width": 404,
+      "height": 30
+    },
+    "bigCard": {
+      "image": {
+        "src": "/images/right-big.jpg",
+        "alt": "Laboratory research setting",
+        "width": 640,
+        "height": 712
+      },
+      "category": "Ultrasound Technology",
+      "title": "The Future of Ultrasound Technology: Innovations You Should Know About",
+      "meta": {
+        "calendar": {
+          "icon": {
+            "src": "/images/calender-card.svg",
+            "alt": "Calendar",
+            "width": 20,
+            "height": 20
+          },
+          "text": "03/01/2024"
+        },
+        "clock": {
+          "icon": {
+            "src": "/images/clock-card.svg",
+            "alt": "Clock",
+            "width": 20,
+            "height": 20
+          },
+          "text": "18:32"
+        }
+      },
+      "icon": {
+        "src": "/images/right-icon.svg",
+        "alt": "Read more icon",
+        "width": 48,
+        "height": 48
+      }
+    },
+    "cards": [
+      {
+        "image": {
+          "src": "/images/left-up-1.jpg",
+          "alt": "Medical Innovation",
+          "width": 303,
+          "height": 216
+        },
+        "category": "Medical Innovation",
+        "title": "How Ultrasound Plays a Key Role in Early Cancer Detection",
+        "meta": {
+          "calendar": {
+            "icon": {
+              "src": "/images/calender-card.svg",
+              "alt": "Calendar",
+              "width": 20,
+              "height": 20
+            },
+            "text": "03/01/2024"
+          },
+          "clock": {
+            "icon": {
+              "src": "/images/clock-card.svg",
+              "alt": "Clock",
+              "width": 20,
+              "height": 20
+            },
+            "text": "18:32"
+          }
+        },
+        "icon": {
+          "src": "/images/left-icon.svg",
+          "alt": "Read more icon",
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "image": {
+          "src": "/images/left-up-2.jpg",
+          "alt": "Patient Care & Safety",
+          "width": 303,
+          "height": 216
+        },
+        "category": "Patient Care & Safety",
+        "title": "ADOM's Commitment to Advancing Medical Education in Ultrasound",
+        "meta": {
+          "calendar": {
+            "icon": {
+              "src": "/images/calender-card.svg",
+              "alt": "Calendar",
+              "width": 20,
+              "height": 20
+            },
+            "text": "03/01/2024"
+          },
+          "clock": {
+            "icon": {
+              "src": "/images/clock-card.svg",
+              "alt": "Clock",
+              "width": 20,
+              "height": 20
+            },
+            "text": "18:32"
+          }
+        },
+        "icon": {
+          "src": "/images/left-icon.svg",
+          "alt": "Read more icon",
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "image": {
+          "src": "/images/left-down-1.jpg",
+          "alt": "Ultrasound Technology",
+          "width": 303,
+          "height": 216
+        },
+        "category": "Ultrasound Technology",
+        "title": "Understanding the Importance of Continuing Education for Ultrasound Professionals",
+        "meta": {
+          "calendar": {
+            "icon": {
+              "src": "/images/calender-card.svg",
+              "alt": "Calendar",
+              "width": 20,
+              "height": 20
+            },
+            "text": "03/01/2024"
+          },
+          "clock": {
+            "icon": {
+              "src": "/images/clock-card.svg",
+              "alt": "Clock",
+              "width": 20,
+              "height": 20
+            },
+            "text": "18:32"
+          }
+        },
+        "icon": {
+          "src": "/images/left-icon.svg",
+          "alt": "Read more icon",
+          "width": 32,
+          "height": 32
+        }
+      },
+      {
+        "image": {
+          "src": "/images/left-down-2.jpg",
+          "alt": "Cancer Diagnostics",
+          "width": 303,
+          "height": 216
+        },
+        "category": "Cancer Diagnostics",
+        "title": "The Role of Ultrasound in Pregnancy and Women's Health",
+        "meta": {
+          "calendar": {
+            "icon": {
+              "src": "/images/calender-card.svg",
+              "alt": "Calendar",
+              "width": 20,
+              "height": 20
+            },
+            "text": "03/01/2024"
+          },
+          "clock": {
+            "icon": {
+              "src": "/images/clock-card.svg",
+              "alt": "Clock",
+              "width": 20,
+              "height": 20
+            },
+            "text": "18:32"
+          }
+        },
+        "icon": {
+          "src": "/images/left-icon.svg",
+          "alt": "Read more icon",
+          "width": 32,
+          "height": 32
+        }
+      }
+    ],
+    "ctaButton": {
+      "text": "Explore Our Latest Insights!"
+    }
+  }
+}

@@ -1,0 +1,263 @@
+/* Hero.module.css */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background: #ffffff;
+  overflow: hidden;
+  padding-top: 120px; /* Account for fixed navbar */
+}
+
+.heroContainer {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.heroContent {
+  animation: slideUp 1s ease-out;
+}
+
+.heroTitle {
+  font-family: "Jost", sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+
+.heroTitleHighlight {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.heroDescription {
+  font-family: "Jost", sans-serif;
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.heroButton {
+  padding: 16px 32px;
+  background: var(--gradient-primary);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-family: "Jost", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow);
+}
+
+.heroButton:hover {
+  background: var(--secondary-color);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.heroImages {
+  position: relative;
+  height: 600px;
+  animation: fadeIn 1.2s ease-out;
+}
+
+.heroImageContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.heroImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: var(--shadow-lg);
+}
+
+.leftHeroImage {
+  top: 0;
+  left: 0;
+  width: 45%;
+  height: 45%;
+  z-index: 3;
+}
+
+.rightHeroImage {
+  top: 0;
+  right: 0;
+  width: 45%;
+  height: 45%;
+  z-index: 3;
+}
+
+.centerHeroImage {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+  z-index: 2;
+}
+
+.bottomLeftHeroImage {
+  bottom: 0;
+  left: 0;
+  width: 45%;
+  height: 45%;
+  z-index: 3;
+}
+
+.bottomRightHeroImage {
+  bottom: 0;
+  right: 0;
+  width: 45%;
+  height: 45%;
+  z-index: 3;
+}
+
+/* Decorative Elements */
+.decorativeLines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.decorativeLine {
+  position: absolute;
+  opacity: 0.1;
+}
+
+.decorativeLine1 {
+  top: 20%;
+  left: 10%;
+  width: 200px;
+  height: 2px;
+  background: var(--primary-color);
+  transform: rotate(45deg);
+}
+
+.decorativeLine2 {
+  top: 60%;
+  right: 15%;
+  width: 150px;
+  height: 2px;
+  background: var(--accent-color);
+  transform: rotate(-30deg);
+}
+
+.decorativeEllipse {
+  position: absolute;
+  top: 30%;
+  right: 20%;
+  width: 100px;
+  height: 100px;
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+  opacity: 0.1;
+}
+
+.decorativeRectangle {
+  position: absolute;
+  bottom: 20%;
+  left: 20%;
+  width: 80px;
+  height: 80px;
+  background: var(--accent-color);
+  opacity: 0.1;
+  transform: rotate(45deg);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .heroContainer {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .heroImages {
+    height: 400px;
+  }
+
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 80vh;
+    padding: 2rem 0;
+  }
+
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroDescription {
+    font-size: 1.125rem;
+  }
+
+  .heroImages {
+    height: 300px;
+  }
+
+  .heroButton {
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroTitle {
+    font-size: 1.75rem;
+  }
+
+  .heroDescription {
+    font-size: 1rem;
+  }
+
+  .heroImages {
+    height: 250px;
+  }
+}
+
+/* Animation Keyframes */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

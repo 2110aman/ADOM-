@@ -1,0 +1,22 @@
+{
+  "logo": {
+    "src": "/images/logo-trans.png",
+    "alt": "ADOM Logo"
+  },
+  "banner": {
+    "text": "Empowering Future Experts in Diagnostic Ultrasound through In-Depth Education and Research"
+  },
+  "links": [
+    { "name": "Home", "href": "#" },
+    { "name": "About Us", "href": "#" },
+    { "name": "Programs", "href": "#" },
+    { "name": "Admissions", "href": "#" },
+    { "name": "Research", "href": "#" },
+    { "name": "Contact Us", "href": "#" }
+  ],
+  "buttons": [
+    { "text": "Apply Now", "type": "primary", "href": "#" },
+    { "text": "Virtual Tour", "type": "secondary", "href": "#" }
+  ]
+}
+

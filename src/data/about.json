@@ -1,0 +1,63 @@
+{
+  "about": {
+    "subtitle": "ABOUT ADOM:",
+    "title": "Leading in Ultrasound Education and Research",
+    "description": "The Academy of Diagnostic & Osteopathic Medicine (ADOM) is dedicated to training the next generation of medical professionals in diagnostic ultrasound. Our programs provide hands-on training and are led by experts in the field, preparing doctors, medical students, and healthcare practitioners for excellence. With a commitment to innovation, ADOM also contributes to impactful cancer research, advancing both patient care and scientific knowledge.",
+    "features": [
+      {
+        "icon": "/images/checkList.svg",
+        "text": "Comprehensive courses in diagnostic ultrasound"
+      },
+      {
+        "icon": "/images/checkList.svg",
+        "text": "Hands-on training with expert instructors"
+      },
+      {
+        "icon": "/images/checkList.svg",
+        "text": "Innovative cancer research initiatives"
+      },
+      {
+        "icon": "/images/checkList.svg",
+        "text": "Focus on excellence in medical education and patient care"
+      }
+    ],
+    "stats": [
+      {
+        "number": "1,000+",
+        "text": "Graduates Across the Country",
+        "highlight": true
+      },
+      {
+        "number": "25+",
+        "text": "Ongoing Research Projects",
+        "highlight": false
+      },
+      {
+        "number": "10+",
+        "text": "Years of Excellence",
+        "highlight": true
+      }
+    ],
+    "button": {
+      "text": "Learn More About ADOM",
+      "type": "primary"
+    },
+    "images": [
+      {
+        "src": "/images/clip1.png",
+        "alt": "Medical professional with ultrasound",
+        "class": "about-image-clip1"
+      },
+      {
+        "src": "/images/clip2.png",
+        "alt": "Laboratory research setting",
+        "class": "about-image-clip2"
+      }
+    ],
+    "union": {
+      "src": "/images/Union.png",
+      "alt": "Union decorative line"
+    }
+  }
+}
+

@@ -1,0 +1,44 @@
+{
+  "testimonials": {
+    "subtitle": "TESTIMONIAL",
+    "title": "Our Students Feedback",
+    "union": {
+      "src": "/images/text_union.svg",
+      "alt": "Union decorative line"
+    },
+    "image": {
+      "src": "/images/side_image.png",
+      "alt": "Laboratory setting with medical professionals"
+    },
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "Sarah L.",
+        "position": "Chief Resident Internal Medicine, UCSD",
+        "text": "The quality and reliability of the equipment from PPE Rentals have significantly improved our workplace safety. The rental process is seamless, and their team is always ready to assist with any questions or needs we have.",
+        "image": "/images/profile1.png",
+        "logo": "/images/uni-logo-right.png",
+        "active": true
+      },
+      {
+        "id": 2,
+        "name": "John M.",
+        "position": "Senior Research Fellow, Johns Hopkins",
+        "text": "ADOM Academy's ultrasound training program exceeded my expectations. The hands-on approach and expert instructors helped me master advanced techniques that I now use daily in my practice.",
+        "image": "/images/profile2.png",
+        "logo": "/images/university_logo.svg",
+        "active": false
+      },
+      {
+        "id": 3,
+        "name": "Dr. Smith",
+        "position": "Medical Director, Harvard Medical School",
+        "text": "The comprehensive curriculum and state-of-the-art facilities at ADOM Academy provided me with the skills needed to excel in diagnostic ultrasound. Highly recommend their programs to any medical professional.",
+        "image": "/images/profile3.png",
+        "logo": "/images/univeristy-left.svg",
+        "active": false
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,74 @@
+{
+  "research": {
+    "subtitle": "RESEARCH & INNOVATION",
+    "title": "Advancing Medical Science Through Research & Innovation",
+    "union": {
+      "src": "/images/res_union.svg",
+      "alt": "Union decorative line",
+      "width": 1044,
+      "height": 30
+    },
+    "images": {
+      "clip1": {
+        "src": "/images/clip1.png",
+        "alt": "Medical professional performing ultrasound procedure",
+        "width": 412,
+        "height": 540
+      },
+      "clip2": {
+        "src": "/images/clip2.png",
+        "alt": "Laboratory research setting",
+        "width": 422,
+        "height": 540
+      }
+    },
+    "content": {
+      "title": "Key Research Areas",
+      "areas": [
+        {
+          "icon": {
+            "src": "/images/up1.svg",
+            "alt": "Ultrasound Technology",
+            "width": 40,
+            "height": 40
+          },
+          "title": "Ultrasound Technology",
+          "description": "Exploring advancements in <br> ultrasound devices and imaging techniques."
+        },
+        {
+          "icon": {
+            "src": "/images/up2.svg",
+            "alt": "Cancer Diagnostics",
+            "width": 40,
+            "height": 40
+          },
+          "title": "Cancer Diagnostics",
+          "description": "Improving early detection and treatment through ultrasound-guided techniques."
+        },
+        {
+          "icon": {
+            "src": "/images/down1.svg",
+            "alt": "Medical Innovation",
+            "width": 40,
+            "height": 40
+          },
+          "title": "Medical Innovation",
+          "description": "Pioneering methods for integrating ultrasound education with clinical practice."
+        },
+        {
+          "icon": {
+            "src": "/images/down2.svg",
+            "alt": "Patient Care & Safety",
+            "width": 40,
+            "height": 40
+          },
+          "title": "Patient Care & Safety",
+          "description": "Research improving patient <br> outcomes and safety in ultrasound procedures."
+        }
+      ]
+    },
+    "ctaButton": {
+      "text": "Join Our Research Initiatives"
+    }
+  }
+}

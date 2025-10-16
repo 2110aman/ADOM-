@@ -1,0 +1,469 @@
+/* ========================================
+   ABOUT COMPONENT - COMPLETE CSS STYLES
+   ======================================== */
+
+/* ========================================
+   1. ABOUT SECTION CONTAINER
+   ======================================== */
+.aboutSection {
+  background-color: #000000;
+  padding: 80px 60px;
+}
+
+.aboutUpper {
+  max-width: 818px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.aboutSubtitle {
+  font-family: var(--font-merriweather);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #e8ac12;
+  margin-bottom: 18px;
+  letter-spacing: 2px;
+}
+
+.aboutTitle {
+  font-family: var(--font-merriweather);
+  font-weight: 700;
+  font-size: 35px;
+  color: #ffffff;
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.aboutUnion {
+  display: flex;
+  justify-content: center;
+  max-width: 818px;
+}
+
+.aboutUnion img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ========================================
+   2. ABOUT LOWER CONTENT
+   ======================================== */
+.aboutLower {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+
+.aboutLeft {
+  flex: 1;
+}
+
+.aboutImages {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutImageClip1 {
+  position: relative;
+  max-width: 412px;
+  width: 100%;
+  z-index: 2;
+  margin-right: -100px;
+}
+
+.aboutImageClip1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aboutImageClip2 {
+  position: relative;
+  z-index: 1;
+  max-width: 422px;
+  width: 100%;
+}
+
+.aboutImageClip2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ========================================
+   3. ABOUT RIGHT CONTENT
+   ======================================== */
+.aboutRight {
+  flex: 1;
+  max-width: 508px;
+}
+
+.aboutDescription p {
+  font-family: var(--font-jost);
+  font-weight: 400;
+  font-size: 15px;
+  color: #f8f8f8;
+  line-height: 1.5;
+  margin-bottom: 31px;
+}
+
+.aboutFeatures {
+  margin-bottom: 31px;
+}
+
+.featureItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 16px;
+}
+
+.featureCheck {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.featureItem span {
+  font-family: var(--font-merriweather);
+  font-weight: 400;
+  font-size: 15px;
+  color: #f5f5f5;
+  line-height: 1.5;
+}
+
+/* ========================================
+   4. ABOUT STATS
+   ======================================== */
+.aboutStats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.statItem {
+  width: 142.7px;
+}
+
+.statLine {
+  width: 1px;
+  height: 116px;
+  align-self: center;
+  padding: 0;
+  background: #f8f8f8;
+}
+
+.statNumber {
+  font-family: var(--font-merriweather);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 72px;
+  color: #f5f5f5;
+}
+
+.goldNumber {
+  color: #e8ac12;
+}
+
+.statText {
+  font-family: var(--font-merriweather);
+  font-weight: 400;
+  font-size: 15px;
+  color: #f8f8f8;
+  line-height: 1.5;
+}
+
+/* ========================================
+   5. BUTTON STYLES
+   ======================================== */
+.aboutButtonPrimary {
+  font-size: 16px;
+  line-height: 120%;
+  color: #ffffff;
+  /* padding: 14px 40px; */
+  width: 100%;
+}
+
+.btn {
+  padding: 14px 40px;
+  border-radius: 36px;
+  font-family: var(--font-merriweather);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.btnPrimary {
+  background: linear-gradient(115.8deg, #906026 36.58%, #f5eb9a 130.09%);
+  color: #ffffff;
+  width: 100%;
+}
+
+.btnPrimary:hover {
+  background: linear-gradient(115.8deg, #906026 36.58%, #f5eb9a 150.09%);
+  transform: translateY(-1px);
+  box-shadow: 0px 0px 0px 0px #ffffff33;
+}
+
+/* ========================================
+   6. RESPONSIVE DESIGN
+   ======================================== */
+
+/* Large Desktop (1360px and below) */
+@media (max-width: 1360px) {
+  .aboutSection {
+    padding: 60px 25px;
+  }
+}
+
+/* Desktop (1200px and below) */
+@media (max-width: 1200px) {
+  .aboutUpper {
+    margin-bottom: 40px;
+  }
+  .aboutLower {
+    gap: 40px;
+  }
+  .aboutTitle {
+    font-size: 34px;
+  }
+  .aboutSubtitle {
+    font-size: 15px;
+    color: #e8ac12;
+  }
+
+  .aboutDescription p {
+    margin-bottom: 20px;
+  }
+
+  .aboutFeatures {
+    margin-bottom: 20px;
+  }
+
+  .aboutStats {
+    gap: 10px;
+  }
+  .aboutImageClip1 {
+    margin-right: -50px;
+  }
+}
+
+/* Medium Desktop (1024px and below) */
+@media (max-width: 1024px) {
+  .aboutImageClip1 {
+    margin-right: -40px;
+  }
+  .aboutTitle {
+    font-size: 30px;
+  }
+  .aboutSubtitle {
+    font-size: 14px;
+  }
+  .aboutStats {
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+  .statItem {
+    max-width: 100px;
+  }
+  .statLine {
+    height: 120px;
+  }
+  .aboutDescription p {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  .aboutFeatures {
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  .featureItem {
+    margin-bottom: 10px;
+  }
+  .featureItem span {
+    font-size: 14px;
+  }
+  .aboutButtonPrimary {
+    padding: 10px 20px;
+  }
+  .statNumber {
+    font-size: 30px;
+  }
+  .statText {
+    font-size: 14px;
+  }
+}
+
+/* Extra Small Mobile (425px and below) */
+@media (max-width: 425px) {
+  .cardIcon {
+    top: 0px;
+    left: 35px;
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* Very Small Mobile (375px and below) */
+@media (max-width: 375px) {
+  .cardIcon {
+    top: 0px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* Ultra Small Mobile (360px and below) */
+@media (max-width: 360px) {
+  .topicsUnion img {
+    width: 280px !important;
+  }
+  .cardIcon {
+    top: 0px;
+    left: -10px;
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+  .aboutSection {
+    padding: 60px 25px;
+  }
+
+  .aboutUpper {
+    margin-bottom: 60px;
+  }
+  .aboutUnion {
+    padding: 0 25px;
+  }
+
+  .aboutTitle {
+    font-size: 28px;
+  }
+  .aboutSubtitle {
+    font-size: 14px;
+  }
+
+  .aboutLower {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .aboutRight {
+    padding-left: 0;
+  }
+
+  .aboutImages {
+    order: 2;
+  }
+
+  .aboutRight {
+    order: 1;
+  }
+
+  .aboutImageClip1 {
+    max-width: 250px;
+  }
+  .aboutImageClip1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .aboutImageClip2 {
+    max-width: 230px;
+  }
+  .aboutImageClip2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .aboutStats {
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+  }
+  .aboutRight {
+    max-width: 100%;
+  }
+  .aboutStats {
+    width: 70%;
+  }
+  .aboutButtonPrimary {
+    width: 70%;
+  }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+  .aboutSection {
+    padding: 60px 25px;
+  }
+
+  .aboutTitle {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .aboutUpper {
+    margin-bottom: 30px;
+  }
+
+  .aboutSubtitle {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .aboutImageClip1 {
+    max-width: 250px;
+  }
+  .aboutImageClip1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .aboutImageClip2 {
+    max-width: 250px;
+  }
+  .aboutImageClip2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .aboutImageClip1 {
+    margin-right: -30px;
+  }
+  .aboutStats {
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .statNumber {
+    font-size: 28px;
+  }
+  .aboutStats {
+    width: 100%;
+  }
+  .aboutButtonPrimary {
+    width: 100%;
+    font-size: 13px;
+    padding: 13px 20px;
+  }
+}

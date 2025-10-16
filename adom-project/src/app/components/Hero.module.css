@@ -1,0 +1,615 @@
+/* ========================================
+   HERO COMPONENT - MODULAR CSS STYLES
+   ======================================== */
+
+/* ========================================
+   1. HERO SECTION CONTAINER
+   ======================================== */
+.heroSection {
+  background-color: #000000;
+  padding: 0px 60px;
+  /* padding-top: 150px; */
+  /* max-height: 658px; */
+  height: 100%;
+}
+
+.heroContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1320px;
+  margin: 0 auto;
+  width: 100%;
+  /* max-height: 496.06px; */
+  height: 100%;
+  position: relative;
+  padding: 80px 0px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* ========================================
+   2. HERO DECORATIVE ELEMENTS
+   ======================================== */
+.heroLines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.heroLines img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heroLines2 {
+  position: absolute;
+  top: 27%;
+  right: 7%;
+  z-index: 2;
+  max-width: 249px;
+  width: 100%;
+
+}
+
+.heroLines2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heroLines3 {
+  position: absolute;
+  top: 52%;
+  left: 51%;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  max-width: 238px;
+  max-height: 245px;
+}
+
+.heroLines3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ========================================
+   3. HERO OVERLAY CONTENT
+   ======================================== */
+.heroOverlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  max-width: 1320px;
+  margin: 0 auto;
+  width: 100%;
+  /* max-height: 496px; */
+  height: 100%;
+  z-index: 2;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ========================================
+   4. HERO LEFT CONTENT
+   ======================================== */
+.heroOverlayContentLeft {
+  max-width: 532px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  background: transparent;
+}
+
+.heroOverlayTitle {
+  font-family: var(--font-merriweather);
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 48px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.heroOverlayTitleSpan {
+  background: linear-gradient(150.24deg, #eac035 -105.01%, #be8936 175.97%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.heroOverlayDescription {
+  font-family: var(--font-jost);
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.heroOverlayButtons {
+  margin-top: 32px;
+}
+
+/* ========================================
+   5. HERO RIGHT CONTENT
+   ======================================== */
+
+.leftHeroOverlayImage,
+.centerHeroOverlayImage,
+.rightHeroOverlayImage {
+  width: 100%;
+}
+.heroOverlayContentRight {
+  display: flex;
+  flex-shrink: 1;
+  /* max-width: 626px; */
+  max-width: max-content;
+  /* max-height: 496.06px; */
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 19px;
+  background: transparent;
+}
+
+.left1HeroOverlayImage,
+.left2HeroOverlayImage {
+  max-width: 238px;
+  max-height: 244px !important;
+  width: 100%;
+  height: 100%;
+  /* max-height: 100%; */
+}
+
+.center1HeroOverlayImage,
+.center2HeroOverlayImage {
+  max-width: 180px;
+  max-height: 240px;
+
+  width: 100%;
+  height: 100%;
+}
+
+.rightHeroOverlayImage {
+  max-width: 173px;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+.left1HeroOverlayImage img,
+.left2HeroOverlayImage img,
+.center1HeroOverlayImage img,
+.center2HeroOverlayImage img,
+.rightHeroOverlayImage img {
+  /* width: 100%;
+  height: 100%; */
+  object-fit: cover;
+}
+
+.heroImage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8.5px;
+  background: transparent;
+}
+
+/* ========================================
+   6. BUTTON STYLES
+   ======================================== */
+.btn {
+  padding: 14px 40px;
+  border-radius: 36px;
+  font-family: var(--font-merriweather);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.btnPrimary {
+  background: linear-gradient(115.8deg, #906026 36.58%, #f5eb9a 130.09%);
+  color: #ffffff;
+}
+
+.btnPrimary:hover {
+  background: linear-gradient(115.8deg, #906026 36.58%, #f5eb9a 150.09%);
+  transform: translateY(-1px);
+  box-shadow: 0px 0px 0px 0px #ffffff33;
+}
+
+/* ========================================
+   7. RESPONSIVE DESIGN
+   ======================================== */
+
+/* Large Desktop (1360px and below) */
+@media (max-width: 1360px) {
+  .heroSection {
+    padding: 0px 25px;
+  }
+  .heroOverlayContentLeft {
+    max-width: 434px;
+    width: 100%;
+  }
+  .heroOverlayContentRight {
+    flex-shrink: 1;
+  }
+  .heroOverlayTitle {
+    font-size: 40px;
+  }
+  .heroOverlayDescription {
+    font-size: 14px;
+  }
+  .heroImage {
+    gap: 8.5px;
+  }
+  .left1HeroOverlayImage,
+  .left2HeroOverlayImage {
+    width: 208px;
+    height: 100%;
+    max-height: 100%;
+  }
+  .left1HeroOverlayImage img,
+  .left2HeroOverlayImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .center1HeroOverlayImage,
+  .center2HeroOverlayImage {
+    width: 158px;
+
+    height: 100%;
+    max-height: 100%;
+  }
+  .center1HeroOverlayImage img,
+  .center2HeroOverlayImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .rightHeroOverlayImage {
+    width: 150px;
+    height: 100%;
+    max-height: 100%;
+  }
+  .rightHeroOverlayImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .heroImage {
+    gap: 8.5px;
+    width: max-content;
+  }
+
+  .heroLines3 {
+    width: 208px;
+    height: 208px;
+    left: 55%;
+    top: 55%;
+    /* max-height: 100%; */
+  }
+  .heroLines3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* Desktop (1200px and below) */
+@media (max-width: 1200px) {
+  .heroOverlayContentLeft {
+    max-width: 412px;
+    width: 100%;
+  }
+  .heroOverlayContentRight {
+    flex-shrink: 1;
+  }
+  .heroOverlayTitle {
+    font-size: 36px;
+  }
+  .heroOverlayDescription {
+    font-size: 13px;
+  }
+  .heroImage {
+    gap: 7px;
+  }
+  .left1HeroOverlayImage,
+  .left2HeroOverlayImage {
+    width: 188px;
+  }
+
+  .center1HeroOverlayImage,
+  .center2HeroOverlayImage {
+    width: 138px;
+  }
+
+  .rightHeroOverlayImage {
+    width: 130px;
+  }
+
+  .heroLines2 {
+    width: 209px;
+    height: 180px;
+  }
+  .heroLines2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .heroLines3 {
+    width: 208px;
+    height: 180px;
+    left: 55%;
+    top: 55%;
+  }
+  .heroLines3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* Medium Desktop (1055px and below) */
+@media (max-width: 1055px) {
+  .heroOverlayContentLeft {
+    max-width: 392px;
+    width: 100%;
+  }
+  .heroOverlayContentRight {
+    flex-shrink: 1;
+  }
+  .heroOverlayTitle {
+    font-size: 30px;
+  }
+  .heroOverlayDescription {
+    font-size: 11px;
+  }
+  .heroImage {
+    gap: 6px;
+  }
+  .left1HeroOverlayImage,
+  .left2HeroOverlayImage {
+    width: 168px;
+  }
+
+  .center1HeroOverlayImage,
+  .center2HeroOverlayImage {
+    width: 118px;
+  }
+
+  .rightHeroOverlayImage {
+    width: 110px;
+  }
+
+  .heroLines2 {
+    max-width: 189px;
+    height: 160px;
+  }
+
+  .heroLines3 {
+    max-width: 188px;
+    height: 160px;
+    left: 55%;
+    top: 55%;
+  }
+
+  .btn {
+    padding: 13px 22px;
+    font-size: 13px;
+  }
+  .heroOverlayButtons {
+    margin-top: 20px;
+  }
+}
+
+/* Small Desktop (992px and below) */
+@media (max-width: 992px) {
+  .heroOverlayContentLeft {
+    max-width: 350px;
+    width: 100%;
+  }
+  .heroOverlayContentRight {
+    flex-shrink: 1;
+  }
+  
+  .heroOverlayTitle {
+    font-size: 28px;
+  }
+  .heroOverlayDescription {
+    font-size: 11px;
+  }
+  .heroImage {
+    gap: 5px;
+  }
+  .left1HeroOverlayImage,
+  .left2HeroOverlayImage {
+    width: 148px;
+  }
+
+  .center1HeroOverlayImage,
+  .center2HeroOverlayImage {
+    width: 98px;
+  }
+
+  .rightHeroOverlayImage {
+    width: 90px;
+  }
+
+  .heroLines2 {
+    width: 169px;
+    right: 7%;
+    top: 35%;
+    height: 160px;
+  }
+  .heroLines3 {
+    left: 53%;
+    top: 55%;
+    width: 168px;
+  }
+}
+
+/* Tablet Large (805px and below) */
+@media (max-width: 805px) {
+  .heroOverlayContentLeft {
+    max-width: 330px;
+    width: 100%;
+  }
+  .left1HeroOverlayImage,
+  .left2HeroOverlayImage {
+    width: 138px;
+  }
+
+  .center1HeroOverlayImage,
+  .center2HeroOverlayImage {
+    width: 88px;
+  }
+
+  .rightHeroOverlayImage {
+    width: 80px;
+  }
+
+  .heroLines2 {
+    width: 138px;
+  }
+  .heroLines3 {
+    width: 138px;
+    height: 138px;
+    left: 53%;
+    top: 55%;
+  }
+}
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+  .heroOverlay {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .heroOverlayContentRight {
+    flex-shrink: 1;
+  }
+  .heroOverlayDescription {
+    font-size: 14px;
+  }
+  .heroContent {
+    padding: 20px 0px;
+  }
+  .heroOverlayContentLeft {
+    order: 2;
+    max-width: 100%;
+  }
+  .heroOverlayContentRight {
+    order: 1;
+    flex-shrink: 1;
+  }
+  .left1HeroOverlayImage,
+  .left2HeroOverlayImage {
+    width: 183px;
+    
+    
+  }
+  .center1HeroOverlayImage,
+  .center2HeroOverlayImage {
+    width: 130px;
+    
+  }
+
+  .rightHeroOverlayImage {
+    width: 123px;
+    
+  }
+}
+
+@media (max-width: 640px) {
+  .left1HeroOverlayImage,
+  .left2HeroOverlayImage {
+    width: 143px;
+    
+    
+  }
+  .center1HeroOverlayImage,
+  .center2HeroOverlayImage {
+    width: 90px;
+    
+  }
+
+  .rightHeroOverlayImage {
+    width: 83px;
+    
+  }
+}
+
+@media (max-width: 480px) {
+  .navContent {
+    padding: 10px 0px;
+  }
+  .heroOverlayContentRight {
+    gap: 10px;
+  }
+  .left1HeroOverlayImage,
+  .left2HeroOverlayImage {
+    width: 103px;
+    
+    
+  }
+  .center1HeroOverlayImage,
+  .center2HeroOverlayImage {
+    width: 70px;
+    
+  }
+
+  .rightHeroOverlayImage {
+    width: 63px;
+    
+  }
+  .heroLines3 {
+    width: 104px;
+    height: 104px;
+    left: 53%;
+    top: 55%;
+  }
+  .heroLines3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } 
+  .heroLines2 {
+    width: 104px;
+    height: 104px;
+    right: 7%;
+    top: 35%;
+  }
+  .heroLines2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } 
+}
+
+
+

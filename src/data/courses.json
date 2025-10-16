@@ -1,0 +1,74 @@
+{
+  "courses": {
+    "subtitle": "OUR COURSES",
+    "title": "Explore Our Courses",
+    "description": "Whether you're a beginner or a seasoned medical professional, our courses provide in-depth knowledge and hands-on experience in diagnostic ultrasound and cancer research.",
+    "union": {
+      "src": "/images/c_union.svg",
+      "alt": "Union decorative line"
+    },
+    "courses": [
+      {
+        "id": 1,
+        "title": "Advanced Ultrasound Techniques",
+        "image": "/images/up_left.jpg",
+        "duration": "02 months",
+        "mode": "Blended | Hybrid",
+        "schedule": "9 AM to 5 PM, Monday through Friday",
+        "qualification": "High School Diploma or Equivalent | Bachelor's Preferred",
+        "description": "Master specialized techniques, including Doppler studies, 3D/4D imaging, and echocardiography.",
+        "buttons": {
+          "apply": "Apply",
+          "learn": "Learn More"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Diagnostic Medical Sonography (DMS)",
+        "image": "/images/up_right.jpg",
+        "duration": "12 months",
+        "mode": "Blended | Hybrid",
+        "schedule": "9 AM to 5 PM, Monday through Friday",
+        "qualification": "High School Diploma or Equivalent | Bachelor's Preferred",
+        "description": "Learn the principles and practices of ultrasound imaging, focusing on abdominal, vascular, and OB/GYN specialties.",
+        "buttons": {
+          "apply": "Apply",
+          "learn": "Learn More"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Point-of-Care Ultrasound (POCUS)",
+        "image": "/images/down_left.jpg",
+        "duration": "03 months",
+        "mode": "Blended | Hybrid",
+        "schedule": "9 AM to 5 PM, Monday through Friday",
+        "qualification": "High School Diploma or Equivalent | Bachelor's Preferred",
+        "description": "Designed for physicians and healthcare professionals, this course emphasizes real-time diagnostic imaging for bedside care.",
+        "buttons": {
+          "apply": "Apply",
+          "learn": "Learn More"
+        }
+      },
+      {
+        "id": 4,
+        "title": "Oncology Imaging & Diagnostics",
+        "image": "/images/down_right.jpg",
+        "duration": "01 months",
+        "mode": "Blended | Hybrid",
+        "schedule": "9 AM to 5 PM, Monday through Friday",
+        "qualification": "High School Diploma or Equivalent | Bachelor's Preferred",
+        "description": "Understand the critical role of ultrasound in cancer diagnostics and monitoring treatment progress.",
+        "buttons": {
+          "apply": "Apply",
+          "learn": "Learn More"
+        }
+      }
+    ],
+    "cta": {
+      "text": "Explore Our Courses",
+      "type": "primary"
+    }
+  }
+}
+

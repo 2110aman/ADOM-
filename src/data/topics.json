@@ -1,0 +1,46 @@
+{
+  "topics": {
+    "subtitle": "WHAT WE TEACH",
+    "title": "Popular Topics To Learn",
+    "description": "Whether you're a beginner or a seasoned medical professional, our courses provide in-depth knowledge and hands-on experience in diagnostic ultrasound and cancer research.",
+    "union": {
+      "src": "/images/teach_union.png",
+      "alt": "Union decorative line"
+    },
+    "cards": [
+      {
+        "id": 1,
+        "image": "/images/card-image-1.jpg",
+        "icon": "/images/card-icon-1.svg",
+        "title": "Diagnostic Medical Sonography",
+        "description": "Develop expertise in cardiac imaging to evaluate heart function, detect abnormalities, and assist in life-saving cardiac diagnoses.",
+        "button": "Explore Courses"
+      },
+      {
+        "id": 2,
+        "image": "/images/card-image-2.jpg",
+        "icon": "/images/card-icon-2.svg",
+        "title": "Vascular Ultrasound",
+        "description": "Develop expertise in cardiac imaging to evaluate heart function, detect abnormalities, and assist in life-saving cardiac diagnoses.",
+        "button": "Explore Courses"
+      },
+      {
+        "id": 3,
+        "image": "/images/card-image-3.jpg",
+        "icon": "/images/card-icon-3.svg",
+        "title": "Obstetrics and Gynecological Imaging",
+        "description": "Develop expertise in cardiac imaging to evaluate heart function, detect abnormalities, and assist in life-saving cardiac diagnoses.",
+        "button": "Explore Courses"
+      },
+      {
+        "id": 4,
+        "image": "/images/card-image-4.jpg",
+        "icon": "/images/card-icon-4.svg",
+        "title": "Cardiac Ultrasound (Echocardiography)",
+        "description": "Develop expertise in cardiac imaging to evaluate heart function, detect abnormalities, and assist in life-saving cardiac diagnoses.",
+        "button": "Explore Courses"
+      }
+    ]
+  }
+}
+

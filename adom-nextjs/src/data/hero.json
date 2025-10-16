@@ -1,0 +1,26 @@
+{
+  "hero": {
+    "title": "Innovating",
+    "titleHighlight": "Ultrasound Education & Cancer Research.",
+    "description": "Join the ADOM Academy and gain the skills needed to thrive in the rapidly growing field of Diagnostic Ultrasound. Apply now to secure your spot!",
+    "button": {
+      "text": "Apply Now",
+      "type": "primary"
+    },
+    "images": {
+      "decorative": [
+        { "src": "/images/lines  1.svg", "alt": "lines", "class": "hero-lines" },
+        { "src": "/images/Ellipse 1.svg", "alt": "lines", "class": "hero-lines-2" },
+        { "src": "/images/Rectangle 63.svg", "alt": "lines", "class": "hero-lines-3" }
+      ],
+      "hero": [
+        { "src": "/images/left-1-hero.png", "alt": "left-1-hero", "class": "left-1-hero-overlay-image" },
+        { "src": "/images/left-2-hero.png", "alt": "left-2-hero", "class": "left-2-hero-overlay-image" },
+        { "src": "/images/center-1-hero.png", "alt": "center-1-hero", "class": "center-1-hero-overlay-image" },
+        { "src": "/images/center-2-hero.png", "alt": "center-2-hero", "class": "center-2-hero-overlay-image" },
+        { "src": "/images/right-hero.png", "alt": "right-hero", "class": "right-hero-overlay-image" }
+      ]
+    }
+  }
+}
+

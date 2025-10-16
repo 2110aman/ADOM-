@@ -1,0 +1,314 @@
+{
+  "courses": {
+    "subtitle": "OUR COURSES",
+    "title": "Explore Our Courses",
+    "description": "Whether you're a beginner or a seasoned medical professional, our courses provide in-depth knowledge and hands-on experience in diagnostic ultrasound and cancer research.",
+    "union": {
+      "src": "/images/c_union.svg",
+      "alt": "Union decorative line",
+      "width": 404,
+      "height": 30
+    },
+    "ctaButton": {
+      "text": "Explore Our Courses"
+    },
+    "courseCards": [
+      {
+        "id": 1,
+        "image": {
+          "src": "/images/up_left.jpg",
+          "alt": "Advanced Ultrasound Techniques",
+          "width": 300,
+          "height": 455
+        },
+        "title": "Advanced Ultrasound Techniques",
+        "details": [
+          {
+            "items": [
+              {
+                "icon": {
+                  "src": "/images/calender_icon.svg",
+                  "alt": "Calendar",
+                  "width": 24,
+                  "height": 24
+                },
+                "text": "02 months"
+              },
+              {
+                "icon": {
+                  "src": "/images/mode_icon.svg",
+                  "alt": "Mode",
+                  "width": 24,
+                  "height": 24
+                },
+                "text": "Blended | Hybrid"
+              }
+            ]
+          },
+          {
+            "items": [
+              {
+                "icon": {
+                  "src": "/images/clock_icon.svg",
+                  "alt": "Clock",
+                  "width": 24,
+                  "height": 24
+                },
+                "text": "9 AM to 5 PM, Monday through Friday"
+              }
+            ]
+          },
+          {
+            "items": [
+              {
+                "icon": {
+                  "src": "/images/qualification_icon.svg",
+                  "alt": "Qualification",
+                  "width": 24,
+                  "height": 24
+                },
+                "text": "High School Diploma or Equivalent | Bachelor's Preferred"
+              }
+            ]
+          }
+        ],
+        "program": {
+          "title": "Program:",
+          "description": "Master specialized techniques, including Doppler studies, 3D/4D imaging, and echocardiography."
+        },
+        "buttons": [
+          {
+            "text": "Apply",
+            "type": "primary"
+          },
+          {
+            "text": "Learn More",
+            "type": "secondary"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "image": {
+          "src": "/images/up_right.jpg",
+          "alt": "Diagnostic Medical Sonography",
+          "width": 300,
+          "height": 455
+        },
+        "title": "Diagnostic Medical Sonography (DMS)",
+        "details": [
+          {
+            "items": [
+              {
+                "icon": {
+                  "src": "/images/calender_icon.svg",
+                  "alt": "Calendar",
+                  "width": 24,
+                  "height": 24
+                },
+                "text": "12 months"
+              },
+              {
+                "icon": {
+                  "src": "/images/mode_icon.svg",
+                  "alt": "Mode",
+                  "width": 24,
+                  "height": 24
+                },
+                "text": "Blended | Hybrid"
+              }
+            ]
+          },
+          {
+            "items": [
+              {
+                "icon": {
+                  "src": "/images/clock_icon.svg",
+                  "alt": "Clock",
+                  "width": 24,
+                  "height": 24
+                },
+                "text": "9 AM to 5 PM, Monday through Friday"
+              }
+            ]
+          },
+          {
+            "items": [
+              {
+                "icon": {
+                  "src": "/images/qualification_icon.svg",
+                  "alt": "Qualification",
+                  "width": 24,
+                  "height": 24
+                },
+                "text": "High School Diploma or Equivalent | Bachelor's Preferred"
+              }
+            ]
+          }
+        ],
+        "program": {
+          "title": "Program:",
+          "description": "Learn the principles and practices of ultrasound imaging, focusing on abdominal, vascular, and OB/GYN specialties."
+        },
+        "buttons": [
+          {
+            "text": "Apply",
+            "type": "primary"
+          },
+          {
+            "text": "Learn More",
+            "type": "secondary"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "image": {
+          "src": "/images/down_left.jpg",
+          "alt": "Point-of-Care Ultrasound",
+          "width": 300,
+          "height": 455
+        },
+        "title": "Point-of-Care Ultrasound (POCUS)",
+        "details": [
+          {
+            "items": [
+              {
+                "icon": {
+                  "src": "/images/calender_icon.svg",
+                  "alt": "Calendar",
+                  "width": 24,
+                  "height": 24
+                },
+                "text": "03 months"
+              },
+              {
+                "icon": {
+                  "src": "/images/mode_icon.svg",
+                  "alt": "Mode",
+                  "width": 24,
+                  "height": 24
+                },
+                "text": "Blended | Hybrid"
+              }
+            ]
+          },
+          {
+            "items": [
+              {
+                "icon": {
+                  "src": "/images/clock_icon.svg",
+                  "alt": "Clock",
+                  "width": 24,
+                  "height": 24
+                },
+                "text": "9 AM to 5 PM, Monday through Friday"
+              }
+            ]
+          },
+          {
+            "items": [
+              {
+                "icon": {
+                  "src": "/images/qualification_icon.svg",
+                  "alt": "Qualification",
+                  "width": 24,
+                  "height": 24
+                },
+                "text": "High School Diploma or Equivalent | Bachelor's Preferred"
+              }
+            ]
+          }
+        ],
+        "program": {
+          "title": "Program:",
+          "description": "Designed for physicians and healthcare professionals, this course emphasizes real-time diagnostic imaging for bedside care."
+        },
+        "buttons": [
+          {
+            "text": "Apply",
+            "type": "primary"
+          },
+          {
+            "text": "Learn More",
+            "type": "secondary"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "image": {
+          "src": "/images/down_right.jpg",
+          "alt": "Oncology Imaging & Diagnostics",
+          "width": 300,
+          "height": 455
+        },
+        "title": "Oncology Imaging & Diagnostics",
+        "details": [
+          {
+            "items": [
+              {
+                "icon": {
+                  "src": "/images/calender_icon.svg",
+                  "alt": "Calendar",
+                  "width": 24,
+                  "height": 24
+                },
+                "text": "01 months"
+              },
+              {
+                "icon": {
+                  "src": "/images/mode_icon.svg",
+                  "alt": "Mode",
+                  "width": 24,
+                  "height": 24
+                },
+                "text": "Blended | Hybrid"
+              }
+            ]
+          },
+          {
+            "items": [
+              {
+                "icon": {
+                  "src": "/images/clock_icon.svg",
+                  "alt": "Clock",
+                  "width": 24,
+                  "height": 24
+                },
+                "text": "9 AM to 5 PM, Monday through Friday"
+              }
+            ]
+          },
+          {
+            "items": [
+              {
+                "icon": {
+                  "src": "/images/qualification_icon.svg",
+                  "alt": "Qualification",
+                  "width": 24,
+                  "height": 24
+                },
+                "text": "High School Diploma or Equivalent | Bachelor's Preferred"
+              }
+            ]
+          }
+        ],
+        "program": {
+          "title": "Program:",
+          "description": "Understand the critical role of ultrasound in cancer diagnostics and monitoring treatment progress."
+        },
+        "buttons": [
+          {
+            "text": "Apply",
+            "type": "primary"
+          },
+          {
+            "text": "Learn More",
+            "type": "secondary"
+          }
+        ]
+      }
+    ]
+  }
+}

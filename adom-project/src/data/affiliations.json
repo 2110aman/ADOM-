@@ -1,0 +1,36 @@
+{
+  "affiliations": {
+    "title": "Our Academic Affiliations",
+    "union": {
+      "src": "/images/text_union.svg",
+      "alt": "Union line",
+      "width": 430,
+      "height": 30
+    },
+    "description": "Building Strong Partnerships for Excellence in Education and Research",
+    "cards": [
+      {
+        "logo": {
+          "src": "/images/univeristy-left.svg",
+          "alt": "Harvard Medical School",
+          "width": 200,
+          "height": 80
+        },
+        "title": "Harvard Medical School",
+        "description": "The founder is a Harvard Medical School Global Healthcare Leader.",
+        "buttonText": "Learn More About Our Collaborations"
+      },
+      {
+        "logo": {
+          "src": "/images/uni-logo-right.png",
+          "alt": "UCSD School of Medicine",
+          "width": 200,
+          "height": 80
+        },
+        "title": "UCSD School of Medicine",
+        "description": "Our founder is on the faculty of the UCSD School of Medicine.",
+        "buttonText": "Learn More About Our Collaborations"
+      }
+    ]
+  }
+}

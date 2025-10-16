@@ -1,0 +1,401 @@
+/* ========================================
+   TESTIMONIAL COMPONENT - COMPLETE CSS STYLES
+   ======================================== */
+
+/* ========================================
+   1. TESTIMONIAL SECTION CONTAINER
+   ======================================== */
+.testimonialSection {
+  background-color: #000000;
+  padding: 80px 60px;
+}
+
+.testimonialContent {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.testimonialLeft {
+  flex: 1;
+  max-width: 422px;
+}
+
+.testimonialImage {
+  position: relative;
+  max-width: 422px;
+  max-height: 639px;
+  overflow: hidden;
+}
+
+.testimonialImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.testimonialRight {
+  flex: 1;
+  max-width: 600px;
+}
+
+/* ========================================
+   2. SHARED STYLES FROM OTHER SECTIONS
+   ======================================== */
+.aboutUpper {
+  max-width: 818px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.aboutSubtitle {
+  font-family: var(--font-merriweather);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #e8ac12;
+  margin-bottom: 18px;
+  letter-spacing: 2px;
+}
+
+.aboutTitle {
+  font-family: var(--font-merriweather);
+  font-weight: 700;
+  font-size: 35px;
+  color: #ffffff;
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+/* ========================================
+   3. TESTIMONIAL SPECIFIC STYLES
+   ======================================== */
+.testimonialUpper {
+  max-width: 100% !important;
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.testimonialUnion {
+  display: flex;
+  /* justify-content: center; */
+  margin-bottom: 26px;
+}
+
+.testimonialUnion img {
+  max-width: 404px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.universityLogoBox {
+  max-width: 320px;
+  min-height:104px;
+  padding: 16px;
+  border-radius: 16px;
+  background: linear-gradient(150.24deg, #eac035 -105.01%, #be8936 175.97%);
+  box-shadow: 0px 6px 15px 0px #0000001f;
+  margin-bottom: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.universityLogo {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.testimonialDetails {
+  margin-bottom: 25px;
+}
+
+.testimonialPosition {
+  font-family: var(--font-merriweather);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.testimonialName {
+  font-family: var(--font-merriweather);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.testimonialQuote {
+  margin-bottom: 30px;
+}
+
+.testimonialQuote p {
+  font-family: var(--font-jost);
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 150%;
+  font-style: italic;
+}
+
+.testimonialProfiles {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.profileItem {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid transparent;
+  background: transparent;
+}
+
+.profileItemOverlay {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: #000000;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileItem img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileItem.active {
+  border: 1px solid transparent;
+  background: conic-gradient(
+    from 0deg,
+    #eac035 0deg,
+    #eac035 318deg,
+    transparent 295deg,
+    transparent 360deg
+  );
+  background-origin: border-box;
+  background-clip: border-box, padding-box;
+  box-shadow: 0 0 15px rgba(234, 192, 53, 0.5);
+  transform: scale(1.02);
+}
+
+.profileItem:hover {
+  transform: scale(1.05);
+  border: 1px solid transparent;
+  background-origin: border-box;
+  background-clip: border-box, padding-box;
+  box-shadow: 0 0 10px rgba(234, 192, 53, 0.3);
+}
+
+/* ========================================
+   4. RESPONSIVE DESIGN
+   ======================================== */
+
+/* Large Desktop (1360px and below) */
+@media (max-width: 1360px) {
+  .testimonialSection {
+    padding: 60px 25px;
+  }
+
+  .testimonialContent {
+    gap: 60px;
+  }
+
+  .testimonialPosition {
+    font-size: 15px;
+  }
+
+  .testimonialName {
+    font-size: 18px;
+  }
+
+  .testimonialQuote p {
+    font-size: 15px;
+  }
+}
+
+/* Desktop (1200px and below) */
+@media (max-width: 1200px) {
+  .testimonialContent {
+    gap: 40px;
+  }
+
+  .testimonialRight {
+    max-width: 500px;
+  }
+}
+
+/* Tablet (992px and below) */
+@media (max-width: 992px) {
+  .testimonialContent {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .testimonialLeft {
+    order: 1;
+  }
+
+  .testimonialRight {
+    order: 2;
+    max-width: 100%;
+  }
+  .testimonialUnion {
+    justify-content: center;
+  }
+
+  .testimonialImage {
+    height: 350px;
+  }
+
+  .testimonialUpper {
+    text-align: center;
+  }
+
+  .universityLogoBox {
+    margin: 0 auto 20px;
+  }
+
+  .testimonialDetails {
+    text-align: center;
+  }
+
+  .testimonialQuote {
+    text-align: center;
+  }
+
+  .testimonialProfiles {
+    justify-content: center;
+  }
+}
+
+/* Mobile (768px and below) */
+@media (max-width: 768px) {
+  .testimonialSection {
+    padding: 60px 25px;
+  }
+
+  .testimonialImage {
+    height: 300px;
+  }
+
+  .universityLogoBox {
+    max-width: 260px;
+  }
+
+  .testimonialUnion img {
+    max-width: 330px;
+  }
+
+  .testimonialPosition {
+    font-size: 13px;
+    margin-bottom: 13px;
+  }
+
+  .testimonialName {
+    font-size: 15px;
+    margin-bottom: 13px;
+  }
+
+  .testimonialQuote p {
+    font-size: 13px;
+    margin-bottom: 13px;
+  }
+
+  .profileItem {
+    width: 76px;
+    height: 76px;
+  }
+
+  .profileItemOverlay {
+    width: 70px;
+    height: 70px;
+  }
+
+  .profileItem img {
+    width: 56px;
+    height: 56px;
+  }
+}
+
+/* Small Mobile (480px and below) */
+@media (max-width: 480px) {
+  .testimonialSection {
+    padding: 60px 25px;
+  }
+
+  .testimonialUnion img {
+    max-width: 320px;
+  }
+
+  .testimonialImage {
+    height: 250px;
+  }
+
+  .universityLogoBox {
+    max-width: 250px;
+  }
+
+  .testimonialPosition {
+    font-size: 13px;
+  }
+
+  .testimonialName {
+    font-size: 15px;
+  }
+
+  .testimonialQuote p {
+    font-size: 13px;
+  }
+
+  .profileItem {
+    width: 60px;
+    height: 60px;
+  }
+
+  .profileItemOverlay {
+    width: 55px;
+    height: 55px;
+  }
+
+  .profileItem img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Very Small Mobile (375px and below) */
+@media (max-width: 375px) {
+  .testimonialUnion img {
+    max-width: 290px;
+  }
+}
+
+/* Ultra Small Mobile (320px and below) */
+@media (max-width: 320px) {
+  .testimonialUnion img {
+    max-width: 240px;
+  }
+}
